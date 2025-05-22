@@ -1,0 +1,735 @@
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .section-text {
+    background-color: #455032bd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    position: fixed;
+  }
+  .icon-bar {
+    display: block;
+  }
+  .icon-bar i {
+    color: white;
+    font-size: 30px;
+  }
+  .show {
+    display: block !important;
+  }
+  .section-text .image {
+    width: 67%;
+  }
+  .header-items {
+    position: fixed;
+    overflow: hidden;
+    inset: 0;
+    background: rgba(33, 37, 41, 0.8);
+    transition: 0.3s;
+    padding: 0;
+    z-index: 9997;
+  }
+  .header-items ul {
+    display: block;
+    position: absolute;
+    inset: 0px 0px 0px 99px;
+    padding: 80px 50px;
+    margin: 0;
+    width: 80%;
+    right: 0;
+    border-radius: 6px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    transition: 0.3s;
+    z-index: 9998;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  }
+   .header-items ul li a {
+    color: #000000;
+    padding: 13px 26px;
+    font-family: "Raleway",  sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+
+  .header-items,
+  .btn-phone {
+    display: none;
+  }
+
+  .header-video {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 700px;
+    width: 100%;
+  }
+
+  .header-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .header-info {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    height: 360px;
+    padding: 0px 0;
+    background-color: rgba(143, 118, 15, 0.669);
+    text-align: center;
+  }
+
+  .header-info .contact,
+  .header-info .call {
+    border: 1px solid white;
+    margin: 5px 24%;
+  }
+  .fa-close {
+    color: #000000 !important;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    margin-right: 0;
+    z-index: 9999;
+  }
+  /* /////////////////////////// about media /////////////////  */
+  .about-section {
+    background-image: url("./images/Group-97-1920w.webp");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 133px 0px;
+  }
+  .about-info h1 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .about-info p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+  /* ////////////// services media //////////  */
+  #services {
+    background-image: url(./images/services.webp);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #services::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #a88a1298;
+    opacity: .6;
+    border-radius: inherit;
+  }
+  .service-input {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 360px;
+  }
+  .service-info-main {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 540px;
+    justify-content: center;
+    margin: 10px 0%;
+}
+  /* ///////////// certificate media ///////////  */
+  #certificate {
+    padding: 20px 0;
+  }
+  .certificate-image {
+    position: relative;
+    width: 90%;
+    margin: 0px auto;
+  }
+.certificate-image img {
+    width: 100%;
+    height: 550px;
+    margin-bottom: 10px;
+}
+  /* /////// coaching media //////////  */
+  #coaching {
+    background-color: #a88a12;
+  }
+  .input-text {
+    text-align: center;
+    width: 100%;
+    color: white;
+  }
+  .input-text h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 5px -30px;
+  }
+  .input-text p {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 10px -47px;
+  }
+  /* ////////// footer media //////// */
+  #footer {
+    text-align: left;
+  }
+  .footer-text {
+    display: flex;
+    margin: 10px 0px;
+  }
+  .footer-section {
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+  .footer-section h3 {
+    font-size: 23px;
+    margin: 0px 0px;
+    text-align: left;
+  }
+  .footer-section  ul li {
+    list-style: none;
+    margin: 10px 0px;
+    font-size: 16px;
+    text-align: left;
+  }
+  .container-footer {
+    background-color: #455032;
+    color: white;
+    padding: 10px 0 30px 0;
+  }
+  .footer-end h5 {
+    font-size: 17px;
+  }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 767px){
+  .section-text {
+    background-color: #455032bd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    position: fixed;
+  }
+  .icon-bar {
+    display: block;
+  }
+  .icon-bar i {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+  }
+  .show{
+    display: block !important;
+  }
+  .section-text .image {
+    width: 40%;
+  }
+  .header-items {
+    position: fixed;
+    overflow: hidden;
+    inset: 0;
+    background: rgba(33, 37, 41, 0.8);
+    transition: 0.3s;
+    padding: 0;
+    z-index: 9997;
+  }
+  .header-items ul {
+    display: block;
+    position: absolute;
+    inset: 0px 0px 0px 286px;
+    padding: 90px 60px;
+    margin: 0;
+    width: 60%;
+    right: 0;
+    border-radius: 6px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    transition: 0.3s;
+    z-index: 9998;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+   .header-items ul li a {
+    color: #000000;
+    padding: 13px 26px;
+    font-family: "Raleway",  sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+  .header-items,
+  .btn-phone {
+    display: none;
+  }
+
+  .header-video {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 700px;
+    width: 100%;
+  }
+
+  .header-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .header-info {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 340px;
+    padding: 0px 0;
+    background-color: rgba(143, 118, 15, 0.669);
+    text-align: center;
+  }
+
+  .header-info .contact, .header-info .call {
+    border: 1px solid white;
+    margin: 4px 14%;
+  }
+
+  .fa-close {
+    color: #000000 !important;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    margin-right: 0;
+    z-index: 9999;
+  }
+  /* ///////////////////////// about media ////////////////  */
+  .about-section {
+    background-image: url("./images/Group-97-1920w.webp");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px;
+  }
+  .about-info p {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+  /* ////////////// services media //////////  */
+  #services {
+    background-image: url(./images/services.webp);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #services::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #a88a1298;
+    opacity: .6;
+    border-radius: inherit;
+  }
+  .service-info {
+    margin: 15px -20px;
+  }
+  .service-input {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 220px;
+  }
+  .service-info-main {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 540px;
+    justify-content: center;
+    margin: 10px 0%;
+}
+  /* ///////////// certificate media ///////////  */
+  #certificate {
+    padding: 10px 0;
+  }
+  .certificate-image {
+    position: relative;
+    width: 90%;
+  }
+.certificate-image img {
+    width: 100%;
+    height: 540px;
+}
+/* //////////// testimonial media ///////////  */
+.test-input h2 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.test-input p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+.testimonial-image img {
+    width: 100%;
+}
+  /* /////// coaching media //////////  */
+  #coaching {
+    background-color: #a88a12;
+  }
+  .input-text {
+    text-align: center;
+    width: 100%;
+    color: white;
+  }
+  .input-text h2 {
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 600;
+    margin: 5px -30px;
+  }
+  .input-text p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px -47px;
+  }
+  /* ////////// footer media //////// */
+  #footer {
+    text-align: left;
+  }
+  .footer-text {
+    display: flex;
+    margin: 10px 0px;
+  }
+  .footer-image {
+    width: 72%;
+}
+  .footer-section {
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+  .footer-section h3 {
+    font-size: 24px;
+    margin: 0px 0px;
+    text-align: left;
+  }
+  .footer-section  ul li {
+    list-style: none;
+    margin: 10px 0px;
+    font-size: 18px;
+    text-align: left;
+  }
+  .container-footer {
+    background-color: #455032;
+    color: white;
+    padding: 10px 0 30px 0;
+  }
+  .footer-end h5 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1120px){
+  .section-text {
+    background-color: #455032bd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    position: fixed;
+  }
+  .icon-bar {
+    display: block;
+  }
+  .icon-bar i {
+    color: white;
+    font-size: 30px;
+  }
+  .show{
+    display: block !important;
+  }
+  .section-text .image {
+    width: 30%;
+  }
+  .header-items {
+    position: fixed;
+    overflow: hidden;
+    inset: 0;
+    background: rgba(33, 37, 41, 0.8);
+    transition: 0.3s;
+    padding: 0;
+    z-index: 9997;
+  }
+  .header-items ul {
+    display: block;
+    position: absolute;
+    inset: 0px 0px 0px 450px;
+    padding: 80px 50px;
+    margin: 0;
+    width: 49%;
+    right: 0;
+    border-radius: 6px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    transition: 0.3s;
+    z-index: 9998;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  }
+   .header-items ul li a {
+    color: #000000;
+    padding: 13px 26px;
+    font-family: "Raleway",  sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+
+  .header-items,
+  .btn-phone {
+    display: none;
+  }
+
+  .header-video {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 700px;
+    width: 100%;
+  }
+
+  .header-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .header-info {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 65%;
+    height: 240px;
+    padding: 0px 0;
+    background-color: rgba(143, 118, 15, 0.669);
+    text-align: center;
+  }
+
+  .header-info .contact, .header-info .call {
+    border: 1px solid white;
+    margin: 5px 0;
+  }
+
+  .fa-close {
+    color: #000000 !important;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    margin-right: 0;
+    z-index: 9999;
+  }
+  /* ////////////// services media //////////  */
+  #services {
+    background-image: url(./images/services.webp);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #services::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #a88a1298;
+    opacity: .6;
+    border-radius: inherit;
+  }
+  .service-image img {
+    width: 100%;
+    height: 270px;
+}
+  .service-input {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 340px;
+  }
+  .service-info-main {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 540px;
+    justify-content: center;
+    margin: 10px 0%;
+}
+  /* ///////////// certificate media ///////////  */
+  #certificate {
+    padding: 10px 0;
+  }
+  .certificate-image {
+    position: relative;
+    width: 100%;
+  }
+.certificate-image img {
+    width: 100%;
+    height: 440px;
+}
+/* //////////// testimonial media ///////////  */
+.test-input h2 {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.test-input p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.testimonial-image img {
+    width: 100%;
+}
+  /* /////// coaching media //////////  */
+  #coaching {
+    background-color: #a88a12;
+  }
+  .input-text {
+    text-align: center;
+    width: 100%;
+    color: white;
+  }
+  .input-text h2 {
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: 600;
+    margin: 5px 0px;
+    text-align: center;
+  }
+  .input-text p {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 10px 0px;
+    text-align: center;
+  }
+  /* ////////// footer media //////// */
+  #footer {
+    text-align: left;
+  }
+  .footer-text {
+    display: flex;
+    margin: 10px 0px;
+  }
+  .footer-image {
+    width: 130%;
+    margin: 0 -45px;
+  }
+  .footer-info {
+    margin: 10px -40px;
+    display: grid;
+  }
+  .footer-info span {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px;
+  }
+  .footer-input {
+    display: grid;
+    margin: 10px -40px;
+  }
+  .footer-input h4 {
+    font-size: 16px;
+    margin: 10px 10px;
+  }
+  .footer-text {
+    display: grid;
+    margin: 10px -40px;
+  }
+  .footer-text h4 {
+    font-size: 16px;
+    margin: 10px 15px;
+  }
+  .footer-icon i {
+    font-size: 15px;
+    border: 4px solid black;
+    border-radius: 50%;
+    padding: 2px 4px;
+  }
+  .footer-section {
+    padding: 46px 0px;
+    margin: 0px 0px;
+  }
+  .footer-section h3 {
+    font-size: 20px;
+    margin: 0px 0px;
+    text-align: left;
+  }
+  .footer-section  ul li {
+    list-style: none;
+    margin: 10px 0px;
+    font-size: 15px;
+    text-align: left;
+  }
+  .container-footer {
+    background-color: #455032;
+    color: white;
+    padding: 10px 0 30px 0;
+  }
+  .footer-end h5 {
+    font-size: 17px;
+  }
+}

@@ -491,6 +491,7 @@
   .icon-bar i {
     color: white;
     font-size: 30px;
+    margin: 10px 14px;
   }
   .show{
     display: block !important;

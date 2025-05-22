@@ -567,7 +567,11 @@
     text-align: center;
   }
 
-  .header-info .contact, .header-info .call {
+  .header-info .contact  {
+    border: 1px solid white;
+    margin: 5px 0;
+  }
+  .header-info .call{
     border: 1px solid white;
     margin: 5px 0;
   }

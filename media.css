@@ -95,7 +95,7 @@
   .header-info .contact,
   .header-info .call {
     border: 1px solid white;
-    margin: 5px 24%;
+    margin: 5px 0%;
   }
   .fa-close {
     color: #000000 !important;
@@ -567,15 +567,10 @@
     text-align: center;
   }
 
-  .header-info .contact  {
+  .header-info .contact , .header-info .call  {
     border: 1px solid white;
     margin: 5px 0;
   }
-  .header-info .call{
-    border: 1px solid white;
-    margin: 5px 0;
-  }
-
   .fa-close {
     color: #000000 !important;
     position: absolute;
